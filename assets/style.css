@@ -193,8 +193,8 @@ header .column_4 {
     background-color: rgb(195, 238, 255);
 }
 
-.material-icons {
-    margin-bottom: 10px;
+footer>.material-icons {
+    padding: 20px;
 }
 
 /*.pod_cast_blk img{width: 60%;}*/
