@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case_Study</title>
+
+    <style>
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .left {
+            float: left;
+            margin: 0% 5% 5% 5%;
+            width: 40%;
+            height: 999px;
+            background-color: rgb(195, 238, 255);
+            border-radius: 5%;
+        }
+
+        .left>h1 {
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        .right {
+            float: right;
+            margin: 0% 5% 5% 5%;
+            width: 40%;
+            height: 999px;
+            background-color: #ffe3db;
+            border-radius: 5%;
+        }
+
+        .img {
+            margin-left: 13%;
+            width: 70%;
+            height: 850px;
+        }
+
+        .right>ul,
+        p {
+            font-size: 1.5em;
+            margin: 5%;
+        }
+
+        .right>h2 {
+            font-size: 2.5em;
+            margin-left: 5%;
+            text-decoration: underline;
+        }
+
+        nav {
+            background-color: cornsilk;
+            padding: 50px;
+            text-align: right;
+            font-size: 2em;
+            padding-right: 10%;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 970px) {
+            header {
+                background: none;
+                height: auto;
+            }
+
+            .column_1,
+            .column_2,
+            .column_3 {
+                display: block;
+                width: 100%;
+                flex: unset;
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav><a href="index.html">HOME</a></nav>
+
+    <header class="column_1">
+        <h1>Case Study</h1>
+    </header>
+
+    <article class="column_2">
+        <div class="left">
+            <h1>Portifolio</h1>
+            <img src="assets/img/Harish Sri Manideep (R)_pages-to-jpg-0001.jpg" alt="Portifolio" class="img">
+        </div>
+    </article>
+
+    <article class="column_3">
+        <div class="right">
+            <h1>Topics Learnt</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>CSS Grids</li>
+                <li>CSS FlexBox</li>
+                <li>Project Life Cycle</li>
+            </ul>
+
+            <h2>Brief</h2>
+            <p>Front-end developer is the development of the graphical user interface of a website, through the use of
+                HTML,
+                CSS, and JavaScript, so that users can view
+                and interact with that website. who are responsible for server-side
+                application logic and integration of the work front-end developers do.</p>
+        </div>
+    </article>
+</body>
+
+</html>
